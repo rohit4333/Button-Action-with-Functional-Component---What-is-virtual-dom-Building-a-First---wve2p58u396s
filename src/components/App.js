@@ -13,7 +13,7 @@ function App() {
     <div id="main">
       
       <button id="click" onClick={()=>clickHandler()}>Click</button>
-      {(!t) ? <p id="para">{paragraph}</p> : ""}
+      {(!t) ? <p id="para">{paragraph}</p> : <p></p>}
     </div>
   );
 }
