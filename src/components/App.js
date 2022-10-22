@@ -11,8 +11,9 @@ function App() {
 
   return (
     <div id="main">
-      {(!t) ? <p id="para">{paragraph}</p> : ""}
+      
       <button id="click" onClick={()=>clickHandler()}>Click</button>
+      {(!t) ? <p id="para">{paragraph}</p> : ""}
     </div>
   );
 }
